@@ -1,0 +1,51 @@
+@media (max-width: 1060px) {
+
+    .redes-sociais {
+        position: absolute;
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 919px) {
+
+    .redes-sociais {
+        position: absolute;
+        right: 10%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+
+    .mobile-menu-icon button {
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        text-align: center;
+        margin-top: 90px;
+        line-height: 2;
+    }
+
+    .mobile-menu ul a:hover {
+        font-weight: bold;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+}   

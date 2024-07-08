@@ -6,24 +6,48 @@
     <title>BICKEL</title>
 
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index_mobile.css">
+    <link rel="stylesheet" href="index-querie.css">
 
 </head>
 <body>
     <div class="estrutura_site">
         <header>
             <img class="logo" src="Imagens/bickel_logo.png" alt="logo">
-            <nav class="nav1">
-                <a href="#">Home</a>
-                <a href="#">Empresa</a>
-                <a href="#">Produtos</a>
-                <a href="#">Serviços</a>
-                <a href="#">Dicas</a>
-                <a href="#">Garantia</a>
-                <a href="#">Localização</a>
-                <a href="#">Contato</a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="nav-link" href="#">Home</a>
+                    <li><a class="nav-link" href="#">Empresa</a>
+                    <li><a class="nav-link" href="#">Produtos</a>
+                    <li><a class="nav-link"href="#">Serviços</a>
+                    <li><a class="nav-link" href="#">Dicas</a>
+                    <li><a class="nav-link" href="#">Garantia</a>
+                    <li><a class="nav-link" href="#">Localização</a>
+                    <li><a class="nav-link" href="#">Contato</a>
+                </ul>
             </nav>
-            <nav class="nav2">
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="Imagens/menu-hamburguer.png" alt="icone-menu"></button>
+            </div>
+
+            <!-- Este será o menu escondido -->
+            <nav class="mobile-menu">
+                <ul>
+                    <li><a class="nav-link" href="#">Home</a>
+                    <li><a class="nav-link" href="#">Empresa</a>
+                    <li><a class="nav-link" href="#">Produtos</a>
+                    <li><a class="nav-link"href="#">Serviços</a>
+                    <li><a class="nav-link" href="#">Dicas</a>
+                    <li><a class="nav-link" href="#">Garantia</a>
+                    <li><a class="nav-link" href="#">Localização</a>
+                    <li><a class="nav-link" href="#">Contato</a>
+                </ul>
+            </nav>
+            <!-- Aqui termina o menu escondido -->
+
+            <script src="script.js"></script>
+
+            <nav class="redes-sociais">
                 <img src="Imagens/facebook.png" alt="face_icon">
                 <img src="Imagens/instagram.png" alt="insta_icon">
                 <img src="Imagens/envelope.png" alt="email_icon">
