@@ -7,11 +7,15 @@
 
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 799px) {
 
     .redes-sociais {
         position: absolute;
         right: 10%;
+    }
+
+    .logo {
+        height: 100px;
     }
 
     .menu {
@@ -21,8 +25,10 @@
     .mobile-menu-icon {
         display: block;
         position: absolute;
-        top: 50px;
+        top: 40px;
         right: 10px;
+        padding: 4px;
+        border-radius: 5px;
     }
 
     .mobile-menu-icon button {
@@ -32,7 +38,7 @@
     }
 
     .mobile-menu ul {
-        text-align: center;
+        text-align: end;
         margin-top: 90px;
         line-height: 2;
     }
@@ -48,4 +54,29 @@
     .open {
         display: block;
     }
-}   
+} 
+
+@media (max-width: 469px) {
+    .logo {
+        width: 200px;
+        margin: 5px 5px -40px 5px;
+    }
+
+    .redes-sociais img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+    .logo {
+        width: 140px;
+        height: 80px;
+        margin: 5px 5px -25px 5px;
+    }
+
+    .redes-sociais img {
+        width: 10px;
+        height: 10px;
+    }
+}
