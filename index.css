@@ -81,10 +81,22 @@ header {
 }
 
 .banner {
-    background-color: black;
-    background-image: url(Imagens/bickel_top.jpg);
+    background-image: url(Imagens/bickel_top.png);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 400px;
-    border-bottom: 4px solid var(--azul);
+    border-bottom: 4px solid var(--azul);    
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.banner h1 {
+    position: absolute;
+    right: 0px;
+    padding: 5px 50px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0.493) 10%, white 80%);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
 }
