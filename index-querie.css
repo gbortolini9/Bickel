@@ -7,6 +7,16 @@
 
 }
 
+@media (max-width: 859px) {
+    #banner {   
+        height: 300px;
+    }
+
+    #banner h1 {
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width: 799px) {
 
     .redes-sociais {
@@ -58,6 +68,10 @@
     .open {
         display: block;
     }
+
+    #banner {   
+        height: 250px;
+    }
 } 
 
 @media (max-width: 469px) {
@@ -69,6 +83,14 @@
     .redes-sociais img {
         width: 12px;
         height: 12px;
+    }
+
+    #banner {   
+        height: 200px;
+    }
+
+    #banner h1 {
+        font-size: 20px;
     }
 }
 
@@ -82,5 +104,14 @@
     .redes-sociais img {
         width: 10px;
         height: 10px;
+    }
+
+    #banner {   
+        height: 150px;
+    }
+
+    #banner h1 {
+        font-size: 15px;
+        padding: 5px 20px;
     }
 }
