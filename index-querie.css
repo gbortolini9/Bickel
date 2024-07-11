@@ -155,6 +155,32 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    .timeline-escondido-2-2 {
+        display: flex;
+    }   
+
+    .timeline-escondido-2-2 img {
+        width: 250px;
+    }
+
+    .timeline-escondido-2-2 p {
+        width: 250px;
+    }
+
+    .timeline-escondido-2-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timeline-escondido-2-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hoje {
+        margin-top: 22px;
+    }
 }
 
 @media (max-width: 554px) {

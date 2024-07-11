@@ -153,6 +153,10 @@ h2 {
     display: none;
 }
 
+.timeline-escondido-2-2 {
+    display: none;
+}
+
 .quadrados {
     display: flex;
     margin: 100px auto;
