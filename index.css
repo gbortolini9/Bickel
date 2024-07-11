@@ -17,7 +17,6 @@
 .estrutura_site {
     max-width: 1800px;
     margin: auto;
-    background-color: #202896;
 }
 
 header {
@@ -109,10 +108,12 @@ section {
     justify-content: center;
     margin: auto;
     max-width: 1400px;
+    background-color: #202896;
 }
 
 .img-apres {
     width: 100%;
+    margin-bottom: -50px;
 }
 
 h2 {
