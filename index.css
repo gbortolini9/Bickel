@@ -106,7 +106,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto -100px auto;
     max-width: 1400px;
     background-color: #202896;
 }
