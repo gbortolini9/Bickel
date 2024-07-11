@@ -123,29 +123,29 @@ h2 {
 }
 
 .timeline {
-    margin: -29px auto;
+    margin: -36px auto;
     display: flex;
-    width: 900px;
+    width: 1100px;
     align-items: center;
     gap: 20px ;
 }
 
 .timeline img {
-    width: 200px;
+    width: 250px;
 }
 
 .timeline-p-1 {
     margin-bottom: 60px;
     color: white;
     text-align: center;
-    width: 200px;
+    width: 250px;
 }
 
 .timeline-p-2 {
     margin-top: 60px;
     color: white;
     text-align: center;
-    width: 200px;
+    width: 250px;
 }
 
 .quadrados {
