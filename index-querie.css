@@ -1,3 +1,23 @@
+@media (max-width: 1099px) {
+    .timeline {
+        margin: -26px auto;
+        width: 800px;
+        gap: 20px ;
+        padding: 0 15px;
+    }
+    
+    .timeline img {
+        width: 180px;
+    }
+    
+    .timeline-p-1 {
+        width: 180px;
+    }
+    
+    .timeline-p-2 {
+        width: 180px;
+}
+
 @media (max-width: 1060px) {
 
     .redes-sociais {
@@ -15,6 +35,30 @@
     #banner h1 {
         font-size: 25px;
     }
+}
+
+@media (max-width: 822px) {
+    .timeline {
+        margin: -23px auto;
+        width: 800px;
+        gap: 20px ;
+        padding: 0 20px;
+    }
+    
+    .timeline img {
+        width: 160px;
+    }
+    
+    .timeline-p-1 {
+        width: 160px;
+        font-size: 13px;
+        margin-bottom: 80px;
+    }
+    
+    .timeline-p-2 {
+        width: 160px;
+        font-size: 13px;
+        margin-top: 80px;
 }
 
 @media screen and (max-width: 799px) {
