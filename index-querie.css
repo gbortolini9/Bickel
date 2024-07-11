@@ -131,6 +131,8 @@
         gap: 10px;
         margin: auto;
         text-align: center;
+        padding: 15px;
+        margin-top: -20px;
     }   
 
     .timeline-escondido img {
@@ -140,6 +142,37 @@
     .timeline-escondido p {
         width: 250px;
         margin: 51px 0;
+    }
+
+    .timeline-escondido-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .timeline-escondido-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 554px) {
+    .timeline-escondido {
+        display: flex;
+        color: white;
+        gap: 7px;
+        padding: 10px;
+        margin-top: -20px;
+    }   
+
+    .timeline-escondido img {
+        width: 200px;
+    }
+
+    .timeline-escondido p {
+        width: 200px;
+        margin: 17px 0;
     }
 
     .timeline-escondido-1 {
@@ -172,6 +205,35 @@
 
     #banner h1 {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 438px) {
+    .timeline-escondido {
+        gap: 5px;
+        margin-top: -20px;
+    }   
+
+    .timeline-escondido img {
+        width: 160px;
+    }
+
+    .timeline-escondido p {
+        width: 160px;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+
+    .timeline-escondido-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .timeline-escondido-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 }
 
