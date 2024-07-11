@@ -153,9 +153,24 @@ h2 {
     display: none;
 }
 
+.divisao {
+    height: 100px;
+    background-color: #202896;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.quadrados-background {
+    max-width: 1400px;
+    background-color: #202896;
+    display: flex;
+    padding: 100px 0px 0 0px;
+    margin: auto;
+}
+
 .quadrados {
     display: flex;
-    margin: 100px auto;
+    margin: 0 auto -120px auto;
 }
 
 .q1 {
