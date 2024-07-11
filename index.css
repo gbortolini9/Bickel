@@ -171,22 +171,32 @@ h2 {
 .quadrados {
     display: flex;
     margin: 0 auto -120px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#q {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .q1 {
-    width: 370px;
-    height: 300px;
-    background-color: aqua;
+    width: 400px;
+    height: 350px;
+    background-color: #0652B0;
 }
 
 .q2 {
-    width: 370px;
-    height: 300px;
-    background-color: rgb(27, 122, 122);
+    width: 400px;
+    height: 350px;
+    background-color: #1A9FE0;
 }
 
 .q3 {
-    width: 370px;
-    height: 300px;
-    background-color: rgb(73, 116, 116);
+    width: 400px;
+    height: 350px;
+    background-color: #4FC3EC;
 }
