@@ -240,3 +240,28 @@ iframe {
     width: 90%;
     height: 200px;
 }
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 170px;
+    background-color: white;
+    gap: 50px;
+}
+
+.produtos img {
+    width: 30%;
+}
+
+.p-produtos {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.produtos p {
+    font-size: 25px;
+    text-align: justify;
+    width: 60%;
+}
