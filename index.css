@@ -281,7 +281,7 @@ iframe {
 
 .sustentabilidade {
     background-color: white;
-    border: 2px solid green;
+    border: 2px dashed green;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
