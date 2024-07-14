@@ -26,6 +26,26 @@
         right: 10px;
     }
 
+    .sustentabilidade {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 899px) {
+
+    .produtos {
+        flex-direction: column;
+    }
+
+    .produtos img {
+        width: 60%;
+    }
+
+    .produtos p {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 859px) {
@@ -185,6 +205,11 @@
     #t-e-2 {
         margin-top: 15px;
     }
+
+    .sustentabilidade {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width: 554px) {
@@ -264,6 +289,25 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
+    }
+}
+
+@media (max-width: 429px) {
+    .quadrados {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #q {
+        width: 95%;
+    }
+
+    .p-q3 {
+        font-size: 30px;
+    }
+
+    .a-q3 {
+        font-size: 30px;
     }
 }
 
