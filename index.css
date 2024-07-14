@@ -274,15 +274,15 @@ iframe {
 }
 
 .produtos p {
-    font-size: 25px;
+    font-size: 23px;
     text-align: justify;
     width: 60%;
 }
 
 .sustentabilidade {
     background-color: white;
-    border: 2px dashed green;
-    border-radius: 10px;
+    border: 2px solid green;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     color: green;
@@ -292,6 +292,7 @@ iframe {
     width: 1000px;
     font-size: 20px;
     padding: 15px;
+    box-shadow: 2px 7px 20px 3px #000000ab;
 }
 
 .sustentabilidade img {
