@@ -278,3 +278,22 @@ iframe {
     text-align: justify;
     width: 60%;
 }
+
+.sustentabilidade {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    color: green;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+    width: 1000px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.sustentabilidade img {
+    width: 150px;
+}
