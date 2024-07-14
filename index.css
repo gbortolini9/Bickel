@@ -216,3 +216,27 @@ h3 {
     color: aqua;
     text-align: center;
 }
+
+.p-q3 {
+    font-size: 40px;
+    color: #202896;
+    text-align: center;
+}
+
+.a-q3 {
+    text-decoration: none;
+    color: #202896;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.a-q3:hover {
+    color: #303ce6;
+}
+
+iframe {
+    width: 90%;
+    height: 200px;
+}
