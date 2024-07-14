@@ -189,6 +189,14 @@ h2 {
     background-color: #0652B0;
 }
 
+.q1 a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+}
+
 .q2 {
     width: 400px;
     height: 350px;
@@ -208,7 +216,12 @@ h2 {
 h3 {
     color: white;
     text-transform: uppercase;
-    font-size: 30px
+    font-size: 30px;
+    text-align: center;
+}
+
+#insta-completo {
+    width: 40px;
 }
 
 .p-q1 {
