@@ -134,9 +134,60 @@
                 Desenvolvemos nossas atividades atentos às questões socioambientais, buscando reduzir ou evitar possíveis riscos e danos ao meio ambiente. Isso também envolve o relacionamento com fornecedores, público interno e externo, e com a sociedade.
             </p>
         </section>
-        <section class="sustentabilidade">
-            <img src="Imagens/bickel_sust.png" alt="">
-            Desenvolvemos nossas atividades atentos às questões socioambientais, buscando reduzir ou evitar possíveis riscos e danos ao meio ambiente. Isso também envolve o relacionamento com fornecedores, público interno e externo e com a sociedade.
+        <section class="contato">
+            <div class="itens-contato">
+                <div class="item-contato">
+                    <img class="itens-contato-img" src="Imagens/whatsapp-contato.png" alt="">
+                    <a class="a-contato-azul" href="#" target="_blank">
+                        <p class="itens-contato-p">(51) 993.668.405</p>
+                    </a>
+                </div>
+                <div class="item-contato">
+                    <img class="itens-contato-img" src="Imagens/envelope-contato.png" alt="">
+                    <p class="itens-contato-p">bickel@terra.com.br</p>
+                </div>
+                <div class="item-contato">
+                    <img class="itens-contato-img" src="Imagens/facebook-contato.png" alt="">
+                    <a class="a-contato-azul" href="https://www.facebook.com/radiadoresbickel/?locale=pt_BR" target="_blank">
+                        <p class="itens-contato-p">Bickel Radiadores</p>
+                    </a>
+                </div>
+                <div class="item-contato">
+                    <img class="itens-contato-img" src="Imagens/instagram-contato.png" alt="">
+                    <a class="a-contato-azul" href="https://www.instagram.com/radiadoresbickel/" target="_blank">
+                        <p class="itens-contato-p">@radiadoresbickel</p>
+                    </a>
+                </div>
+                <div class="item-contato">
+                    <img class="itens-contato-img" src="Imagens/marcador-contato.png" alt="">
+                    <a class="a-contato-azul" href="https://maps.app.goo.gl/eaNvDEAsViohCYdG8" target="_blank">
+                        <p class="itens-contato-p">R. Lindolfo Collor, 1157 <br> Centro, São Leopoldo - RS, 93010-080</p>
+                    </a>
+                </div>
+            </div>
+            <div class="formulario-contato">
+                <form action="envio-contato.php" method="POST" autocomplete="on">                         
+                    <p class="p-contato"> 
+                    <label for="cnome">Nome:</label><br/> 
+                    <input type="text" size="30" name="nome" class="cnome" autocomplete="name" required> 
+                    </p>   
+                    
+                    <p class="p-contato">
+                    <label for="creplyto">E-mail:</label><br/> 
+                    <input type="email" size="30" name="replyto" class="creplyto" autocomplete="email" required> 
+                    </p>   
+                    
+                    <p class="p-contato"> 
+                    <label for="assunto">Mensagem:</label><br/> 
+                    <textarea name="assunto" rows="4" cols="50" class="assunto"></textarea required>
+                    </p>   
+                    
+                    <div class="buttons">
+                        <input type="submit" name="BTEnvia" value="Enviar" class="btn-enviar">
+                        <input type="reset" name="BTApaga" value="Apagar" class="btn-apagar"> 
+                    </div>
+                </form>
+            </div>
         </section>
         <section class="produtos">
             <p> <strong class="texto-titulo">Serviços</strong> <br>
@@ -148,61 +199,10 @@
                 <img id="serv-img-1" src="Imagens/bickel_serv_02.png" alt="">
             </div>
         </section>
-            <section class="contato">
-                <div class="itens-contato">
-                    <div class="item-contato">
-                        <img class="itens-contato-img" src="Imagens/whatsapp-contato.png" alt="">
-                        <a class="a-contato-azul" href="#" target="_blank">
-                            <p class="itens-contato-p">(51) 993.668.405</p>
-                        </a>
-                    </div>
-                    <div class="item-contato">
-                        <img class="itens-contato-img" src="Imagens/envelope-contato.png" alt="">
-                        <p class="itens-contato-p">bickel@terra.com.br</p>
-                    </div>
-                    <div class="item-contato">
-                        <img class="itens-contato-img" src="Imagens/facebook-contato.png" alt="">
-                        <a class="a-contato-azul" href="https://www.facebook.com/radiadoresbickel/?locale=pt_BR" target="_blank">
-                            <p class="itens-contato-p">Bickel Radiadores</p>
-                        </a>
-                    </div>
-                    <div class="item-contato">
-                        <img class="itens-contato-img" src="Imagens/instagram-contato.png" alt="">
-                        <a class="a-contato-azul" href="https://www.instagram.com/radiadoresbickel/" target="_blank">
-                            <p class="itens-contato-p">@radiadoresbickel</p>
-                        </a>
-                    </div>
-                    <div class="item-contato">
-                        <img class="itens-contato-img" src="Imagens/marcador-contato.png" alt="">
-                        <a class="a-contato-azul" href="https://maps.app.goo.gl/eaNvDEAsViohCYdG8" target="_blank">
-                            <p class="itens-contato-p">R. Lindolfo Collor, 1157 <br> Centro, São Leopoldo - RS, 93010-080</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="formulario-contato">
-                    <form action="envio-contato.php" method="POST" autocomplete="on">                         
-                        <p class="p-contato"> 
-                        <label for="cnome">Nome:</label><br/> 
-                        <input type="text" size="30" name="nome" class="cnome" autocomplete="name" required> 
-                        </p>   
-                        
-                        <p class="p-contato">
-                        <label for="creplyto">E-mail:</label><br/> 
-                        <input type="email" size="30" name="replyto" class="creplyto" autocomplete="email" required> 
-                        </p>   
-                        
-                        <p class="p-contato"> 
-                        <label for="assunto">Mensagem:</label><br/> 
-                        <textarea name="assunto" rows="4" cols="50" class="assunto"></textarea required>
-                        </p>   
-                        
-                        <div class="buttons">
-                            <input type="submit" name="BTEnvia" value="Enviar" class="btn-enviar">
-                            <input type="reset" name="BTApaga" value="Apagar" class="btn-apagar"> 
-                        </div>
-                    </form>
-                </div>
-            </section>
+        <section class="sustentabilidade">
+            <img src="Imagens/bickel_sust.png" alt="">
+            Desenvolvemos nossas atividades atentos às questões socioambientais, buscando reduzir ou evitar possíveis riscos e danos ao meio ambiente. Isso também envolve o relacionamento com fornecedores, público interno e externo e com a sociedade.
+        </section>
     </div>
     <footer>
         <div class="rodape">

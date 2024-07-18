@@ -144,6 +144,12 @@
     }
 } 
 
+@media (max-width: 769px) {
+    .rodape {
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 739px) {
     .timeline {
         display: none;
