@@ -47,7 +47,7 @@ if (isset($_POST['BTEnvia'])) {
         $mail->isHTML(true);                                        //Set email format to HTML
         $mail->Subject = 'Formulario de contato encaminhado via Rial Seguros';
     
-        $mensagemConcatenada = 'Formulário encaminhado via Rial Seguros'.'<br/>';
+        $mensagemConcatenada = 'Formulário encaminhado via site Bickel Radiadores'.'<br/>';
         $mensagemConcatenada .= '------------------------------------------------------<br/><br/>';
         $mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>';
         $mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>';

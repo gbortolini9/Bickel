@@ -421,7 +421,102 @@ iframe {
     background-color: red;
   }
 
-footer {
-    margin-top: 100px;
-    height: 200px;
-}
+  footer {
+    background-color: #202896;
+    margin-top: 150px;
+  }
+  
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1800px;
+    gap: 50px;
+    padding: 50px;
+  }
+  
+  .logo-rodape {
+    width: 300px;
+  }
+  
+  .itens-rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .a-rodape {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .a-rodape:hover {
+    color: red;
+  }
+  
+  .telefone {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+  }
+  
+  .telefone h3 {
+    padding: 20px 0;
+  }
+  
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contato img {
+    width: 25px;
+  }
+  
+  .redes-sociais-rodape {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .redes-sociais-rodape a {
+    border-bottom: 2px solid #202896;
+  }
+  
+  .redes-sociais-rodape img{
+    width: 35px;
+  }
+  
+  .redes-sociais-rodape a:hover {
+    border-bottom: 2px solid red;
+    transition-duration: 0,5s;
+  }
+  
+  .registro {
+    background-color: #171d6e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .bortoac-logo {
+    width: 30px;
+    margin-left: 5px;
+  }
+  
+  .logo-bortoac {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .separacao {
+    margin: 50px 0;
+    visibility: hidden;
+  }
