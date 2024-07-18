@@ -216,6 +216,23 @@
     }
 }
 
+@media (max-width: 689px) {
+    .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens-contato {
+        width: 90%;
+      }
+
+      .formulario-contato {
+        width: 90%;
+        margin-top: -40px;
+      }
+    
+}
+
 @media (max-width: 554px) {
     .timeline-escondido {
         display: flex;
