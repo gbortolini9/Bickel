@@ -46,6 +46,10 @@
         width: 90%;
     }
 
+    #serv-img-1 {
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 859px) {

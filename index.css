@@ -260,8 +260,8 @@ iframe {
     align-items: center;
     margin: auto;
     margin-top: 170px;
-    background-color: white;
     gap: 50px;
+    background-color: white;
 }
 
 .produtos img {
@@ -277,6 +277,12 @@ iframe {
     font-size: 23px;
     text-align: justify;
     width: 60%;
+}
+
+.texto-titulo {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
 .sustentabilidade {
@@ -298,6 +304,136 @@ iframe {
 .sustentabilidade img {
     width: 150px;
 }
+
+.serv-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.serv-img img {
+    width: 350px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1400px;
+    box-shadow: 2px 5px 13px #0000005c;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .itens-contato {
+    display: flex;
+    flex-direction: column;
+    color: var(--azul-escuro);
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .item-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .itens-contato-p {
+    font-size: 1.1em;
+  }
+  
+  .a-contato-azul {
+    color: var(--azul-escuro);
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 2px;
+  }
+  
+  .a-contato-azul:hover {
+    color: var(--azul-escuro);
+    font-weight: normal;
+    border-bottom: 2px solid var(--verde);
+    transition-duration: 0.5s;
+  }
+  
+  .formulario-contato {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .p-contato {
+    color: var(--azul-escuro);
+  }
+  
+  .cnome, .creplyto, .assunto {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 242, 242);
+  }
+  
+  .assunto {
+    height: 120px;
+  }
+  
+  textarea {
+    padding: 10px;
+    background-color: #dbdbdb;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-enviar {
+    border: none;
+    background-color: var(--verde);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #5df028;
+  }
+  
+  .btn-apagar {
+    border: none;
+    background-color: #808080;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-apagar:hover {
+    background-color: #a7a7a7;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     margin-top: 100px;
