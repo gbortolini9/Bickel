@@ -155,10 +155,14 @@
     }
 } 
 
-@media (max-width: 769px) {
+@media (max-width: 1072px) {
     .rodape {
         flex-wrap: wrap;
     }
+
+    .itens-rodape {
+        gap: 10px;
+      }
 }
 
 @media (max-width: 739px) {
@@ -281,7 +285,7 @@
     }
 }
 
-@media (max-width: 469px) {
+@media (max-width: 472px) {
     .logo {
         width: 200px;
         margin: 5px 5px -40px 5px;
@@ -298,6 +302,10 @@
 
     #banner h1 {
         font-size: 20px;
+    }
+
+    .itens-rodape {
+        flex-direction: column;
     }
 }
 

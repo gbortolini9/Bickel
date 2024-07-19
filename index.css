@@ -448,17 +448,16 @@ iframe {
     align-items: center;
     max-width: 1800px;
     gap: 50px;
-    padding: 50px;
+    padding: 30px;
   }
   
   .logo-rodape {
-    width: 300px;
+    width: 250px;
   }
   
   .itens-rodape {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    gap: 20px;
   }
   
   .a-rodape {
