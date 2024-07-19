@@ -382,3 +382,17 @@
         padding: 5px 20px;
     }
 }
+
+@media (max-width: 1359px) {
+    .dicas-1 {
+        flex-wrap: wrap-reverse;
+    }
+    
+      .dicas-1 img {
+        width: 60%;
+      }
+    
+      .dicas-texto {
+        width: 99%;
+      }
+}

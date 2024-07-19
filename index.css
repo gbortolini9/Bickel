@@ -539,6 +539,41 @@ iframe {
   .dicas {
     background-color: grey;
     color: white;
-    margin: 150px auto;
+    margin: 0px auto;
     display: flex;
+    padding: 50px;
+    flex-direction: column;
+  }
+
+  .dicas-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .dicas-2 {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .dicas-1 img {
+    width: 30%;
+  }
+
+  .dicas-texto {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  #titulo-dicas {
+    font-weight: bold;
+  }
+
+  .dicas-texto-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
