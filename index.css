@@ -265,7 +265,7 @@ iframe {
 }
 
 .produtos img {
-    width: 30%;
+    width: 20%;
 }
 
 .p-produtos {
@@ -280,7 +280,7 @@ iframe {
 }
 
 #servicos {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .texto-titulo {
@@ -534,4 +534,11 @@ iframe {
   .separacao {
     margin: 50px 0;
     visibility: hidden;
+  }
+
+  .dicas {
+    background-color: grey;
+    color: white;
+    margin: 150px auto;
+    display: flex;
   }
