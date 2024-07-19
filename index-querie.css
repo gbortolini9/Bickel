@@ -32,6 +32,17 @@
 
 }
 
+@media (max-width: 1039px) {
+    aside {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    aside img {
+        width: 50%;
+    }
+}
+
 @media (max-width: 899px) {
 
     .produtos {

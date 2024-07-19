@@ -274,7 +274,7 @@ iframe {
 }
 
 .produtos p {
-    font-size: 23px;
+    font-size: 20px;
     text-align: justify;
     width: 60%;
 }
@@ -327,7 +327,6 @@ iframe {
     max-width: 1400px;
     box-shadow: 2px 5px 13px #0000005c;
     color: white;
-    margin-top: 50px;
     background-color: grey;
   }
   
@@ -427,9 +426,20 @@ iframe {
     background-color: red;
   }
 
+  aside {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto 50px auto;
+  }
+
+  aside img {
+    width: 25%;
+  }
+
   footer {
     background-color: #202896;
-    margin-top: 150px;
   }
   
   .rodape {
