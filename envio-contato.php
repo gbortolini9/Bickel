@@ -17,9 +17,9 @@ if (isset($_POST['BTEnvia'])) {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'email-ssl.com.br';                     //Set the SMTP server to send through
+        $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'bickel@terra.com.br';                  //SMTP username
+        $mail->Username   = 'radiadoresbickel@gmail.com';           //SMTP username
         $mail->Password   = 'radi4455';                             //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -33,9 +33,9 @@ if (isset($_POST['BTEnvia'])) {
             );
 
         //Recipients
-        $mail->setFrom('bickel@terra.com.br', 'Site | Radiadores Bickel');
-        $mail->addAddress('bickel@terra.com.br', 'Radiadores Bickel');      //Add a recipient
-        $mail->addAddress('contato@rialseguros.com.br');                    //Name is optional
+        $mail->setFrom('radiadoresbickel@gmail.com', 'Site | Radiadores Bickel');
+        $mail->addAddress('radiadoresbickel@gmail.com', 'Radiadores Bickel');      //Add a recipient
+        $mail->addAddress('radiadoresbickel@gmail.com');                    //Name is optional
         $mail->addReplyTo('bickel@terra.com.br', 'Information');
         $mail->addBCC('guibortolini9@gmail.com');
 
