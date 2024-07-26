@@ -10,7 +10,7 @@ function menuShow() {
 }
 
 const banner = document.getElementById('banner');
-const imagens = ['Imagens/bickel_top.png', 'Imagens/bickel_foto_superior2.png', 'Imagens/bickel_foto_superior3.png'];
+const imagens = ['Imagens/bickel_top.png', 'Imagens/bickel_foto_superior2.png', 'Imagens/bickel_foto_superior3.png', 'Imagens/banner-mercado-livre2.png'];
 let index = 0;
 
 function alternarImagem() {
