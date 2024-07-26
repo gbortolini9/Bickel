@@ -17,10 +17,10 @@ if (isset($_POST['BTEnvia'])) {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
+        $mail->Host       = 'email-ssl.com.br';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->Username   = 'bickel@terra.com.br';                  //SMTP username
-        $mail->Password   = '#';                                    //SMTP password
+        $mail->Password   = 'radi4455';                             //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -33,11 +33,11 @@ if (isset($_POST['BTEnvia'])) {
             );
 
         //Recipients
-        $mail->setFrom('rialcorretoraemail@gmail.com', 'Site | Rial Reguros');
-        $mail->addAddress('rialcorretoraemail@gmail.com', 'Rial Seguros');  //Add a recipient
+        $mail->setFrom('bickel@terra.com.br', 'Site | Radiadores Bickel');
+        $mail->addAddress('bickel@terra.com.br', 'Radiadores Bickel');      //Add a recipient
         $mail->addAddress('contato@rialseguros.com.br');                    //Name is optional
-        $mail->addReplyTo('contato@rialseguros.com.br', 'Information');
-        $mail->addCC('rialcorretoraemail@gmail.com');
+        $mail->addReplyTo('bickel@terra.com.br', 'Information');
+        $mail->addBCC('guibortolini9@gmail.com');
 
         $remetenteNome  = $_POST['nome'];
         $remetenteEmail = $_POST['replyto'];
@@ -45,7 +45,7 @@ if (isset($_POST['BTEnvia'])) {
 
         //Content
         $mail->isHTML(true);                                        //Set email format to HTML
-        $mail->Subject = 'Formulario de contato encaminhado via Rial Seguros';
+        $mail->Subject = 'Formulario de contato encaminhado via site Radiadores Bickel';
     
         $mensagemConcatenada = 'Formulário encaminhado via site Bickel Radiadores'.'<br/>';
         $mensagemConcatenada .= '------------------------------------------------------<br/><br/>';
