@@ -608,3 +608,14 @@ iframe {
     display: inline;
   } 
 
+  #link-mercado {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #mercado {
+    width: 150px;
+  }
