@@ -582,7 +582,7 @@ iframe {
     width: 150px;
     position: fixed;
     bottom: 20px;
-    right: 0px;
+    right: -10px;
   }
 
   .mc-logo-hover {
